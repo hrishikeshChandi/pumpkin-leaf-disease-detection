@@ -16,7 +16,7 @@ This project helps identify diseases in pumpkin leaves using deep learning. You 
   - Powdery Mildew
 
 - **Transfer Learning:**
-  We’ve used EfficientNet-B0 (pre-trained on ImageNet) and fine-tuned it for pumpkin leaf images.
+  I have used EfficientNet-B0 (pre-trained on ImageNet) and fine-tuned it for pumpkin leaf images.
 
 - **Visual Feedback:**
   After training, a confusion matrix helps visualize how well the model performed.
@@ -27,6 +27,14 @@ This project helps identify diseases in pumpkin leaves using deep learning. You 
 - **Metrics & Logs:**
   Training progress is saved and can be viewed later using TensorBoard.
 
+## Model Performance
+
+- **Test Accuracy:** 86.5%
+- **Test Loss:** 0.354
+
+These metrics were obtained after training the EfficientNet-B0 model on the pumpkin leaf disease dataset. I have fine-tuned the model using transfer learning from the ImageNet weights.
+
+
 ## How It Works
 
 1. Provide pumpkin leaf images for training (dataset included below).
@@ -36,7 +44,7 @@ This project helps identify diseases in pumpkin leaves using deep learning. You 
 
 ## Dataset
 
-We used a public dataset from Kaggle:
+I have used a public dataset from Kaggle:
 
 **Link:** [https://www.kaggle.com/datasets/rifat963/pumpkin](https://www.kaggle.com/datasets/rifat963/pumpkin)
 
