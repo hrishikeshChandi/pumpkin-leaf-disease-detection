@@ -1,0 +1,11 @@
+torch
+torchvision
+tqdm
+matplotlib
+pillow
+mlxtend
+tensorboard
+torchmetrics
+kagglehub
+scikit-learn
+streamlit
