@@ -4,7 +4,7 @@ import torchvision
 from torchvision import transforms
 from PIL import Image
 
-model = torch.load("./old_results/model.pth", weights_only=False)
+model = torch.load("./pumpkin_results/cpu_model.pth", weights_only=False)
 
 st.set_page_config(layout="centered")
 st.title("Pumpkin Leaf Disease Detection 🔍")
